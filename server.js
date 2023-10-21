@@ -4,8 +4,8 @@
  * Module dependencies.
  */
 
-let configDB = require("../db")
-var app = require('../app');
+let configDB = require("./db")
+var app = require('./app');
 var debug = require('debug')('marketplace:server');
 var http = require('http');
 
