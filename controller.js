@@ -1,4 +1,4 @@
-let prod=productModel = require("./model/product")
+let productModel = require("./model/product")
 
 module.exports.home = async function(req, res, next){
     res.json({
